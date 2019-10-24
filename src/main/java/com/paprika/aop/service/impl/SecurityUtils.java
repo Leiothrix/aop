@@ -30,13 +30,4 @@ public class SecurityUtils {
         return json.get("username", String.class);
     }
 
-    /**
-     * 获取系统用户id
-     * @return 系统用户id
-     */
-    public static Long getUserId(){
-        Object obj = getUserDetails();
-        JSONObject json = new JSONObject(obj);
-        return json.get("id", Long.class);
-    }
 }

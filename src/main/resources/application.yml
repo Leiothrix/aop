@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev
+    active: native
   application:
     name: aop
   datasource:
@@ -10,10 +10,11 @@ spring:
       url: jdbc:mysql://localhost:3306/aop?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
       type: com.alibaba.druid.pool.DruidDataSource
   jpa:
-      show-sql: true
-      hibernate:
-        ddl-auto: update
-
+      show-sql:
+      properties:
+        hibernate:
+          ddl-auto: update
+          format_sql: true
 server:
   port: 10001
   tomcat:
