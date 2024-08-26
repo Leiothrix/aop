@@ -20,7 +20,7 @@
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jackson.version>2.9.4</jackson.version>
-        <springfox.version>2.6.1</springfox.version>
+        <springfox.version>2.10.0</springfox.version>
         <hibernate.version>5.2.2.Final</hibernate.version>
         <lobmok.version>1.16.20</lobmok.version>
         <hutool.version>[4.1.12,)</hutool.version>
